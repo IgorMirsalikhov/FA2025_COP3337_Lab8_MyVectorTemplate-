@@ -21,6 +21,7 @@ int main(void) {
         p->print();
     }
 
+     std::cout << "Capacity: " << p->getCapacity() << std::endl;
 
     // Test remove_dups
     for (int i = 0; i < 20; i++) {
